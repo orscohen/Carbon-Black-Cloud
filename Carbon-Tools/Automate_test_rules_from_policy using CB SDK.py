@@ -5,9 +5,17 @@ import json
 import csv
 from datetime import datetime, timedelta, timezone
 import logging
-
-logging.basicConfig(level=logging.DEBUG)
-
+logging.basicConfig(level=logging.INFO)
+#************************************************	
+#| Script Configuration:                        |
+#| -------------------------------------------  |
+#|                                              |
+#   ___          ___      _                     |
+#  /___\_ __    / __\___ | |__   ___ _ __       |
+# //  // '__|  / /  / _ \| '_ \ / _ \ '_ \      |
+#/ \_//| |    / /__| (_) | | | |  __/ | | |     |
+#\___/ |_|    \____/\___/|_| |_|\___|_| |_|     |
+#***********************************************
 api  = CBCloudAPI(profile="default")
 
 # Define the time window variable
