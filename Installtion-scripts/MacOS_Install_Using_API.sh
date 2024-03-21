@@ -3,7 +3,7 @@
 CBDirectory="/Applications/VMware Carbon Black Cloud/"
 SENSOR_VERSION="3.8.0.58"
 Install_code=""  # Can be retrieved from CB Console
-ORG_ID="6028"
+ORG_ID="Yout_ORG_ID" # Replace with your actual ORG ID
 API_KEY="Your_API_Key"  # Replace with your actual API Key
 SECRET="Your_Secret"    # Replace with your actual Secret
 
